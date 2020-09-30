@@ -6,7 +6,7 @@
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
       id="id-628e1911a9b643e793ad0f6cd48b83a8"
-      targetConnections="id-6863088fc5014b2a8863b8ec93565b53"
+      targetConnections="id-6863088fc5014b2a8863b8ec93565b53 id-e67f73d7a4ab435e9f882fe3c3442dbb"
       lineColor="#5c5c5c"
       fillColor="#b5ffff"
       type="1">
@@ -28,16 +28,17 @@
       type="1">
     <sourceConnections
         xsi:type="archimate:DiagramModelArchimateConnection"
-        id="id-0cdd23b9bb9d4f62a335b183b1b1ab48"
+        id="id-de007fb42a074c97abd9ed367cfa9c7a"
+        lineColor="#000000"
         source="id-682bc547a26b44ce9f28006052604b94"
-        target="id-6be2a2954afc42d5bd1ce982a0b43946">
+        target="id-7ed0fd3d84314a04b29885ab5830992f">
       <archimateRelationship
-          xsi:type="archimate:RealizationRelationship"
-          href="RealizationRelationship_id-56773b9da0d9439aa7ff5ea0bb92c3ce.xml#id-56773b9da0d9439aa7ff5ea0bb92c3ce"/>
+          xsi:type="archimate:AggregationRelationship"
+          href="AggregationRelationship_id-e2fecd5d6c934f398eb730f675a499f5.xml#id-e2fecd5d6c934f398eb730f675a499f5"/>
     </sourceConnections>
     <bounds
-        x="430"
-        y="91"
+        x="432"
+        y="240"
         width="120"
         height="55"/>
     <archimateElement
@@ -79,8 +80,8 @@
           href="AssociationRelationship_id-762a6e014d9546fda709ce330f2a7ddb.xml#id-762a6e014d9546fda709ce330f2a7ddb"/>
     </sourceConnections>
     <bounds
-        x="164"
-        y="612"
+        x="179"
+        y="250"
         width="120"
         height="55"/>
     <archimateElement
@@ -92,26 +93,49 @@
       id="id-6ade8caf6fdb47e9987a9b58995bfb79"
       targetConnections="id-6ef3081478db46578da7fcdb38f92e22"
       type="1">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-fdccb77e8fb74048b84e00ed850f5db2"
+        lineColor="#000000"
+        source="id-6ade8caf6fdb47e9987a9b58995bfb79"
+        target="id-7ed0fd3d84314a04b29885ab5830992f">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-c2dd795a9d014946bbd2d1304767a7d4.xml#id-c2dd795a9d014946bbd2d1304767a7d4"/>
+    </sourceConnections>
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-e67f73d7a4ab435e9f882fe3c3442dbb"
+        lineColor="#000000"
+        source="id-6ade8caf6fdb47e9987a9b58995bfb79"
+        target="id-628e1911a9b643e793ad0f6cd48b83a8">
+      <archimateRelationship
+          xsi:type="archimate:AssociationRelationship"
+          href="AssociationRelationship_id-f16e0cc907224699a9329edba1830537.xml#id-f16e0cc907224699a9329edba1830537"/>
+    </sourceConnections>
     <bounds
-        x="624"
-        y="304"
-        width="442"
-        height="199"/>
+        x="24"
+        y="384"
+        width="120"
+        height="55"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-4036e52d6419487cb68cbe088f22c657.xml#id-4036e52d6419487cb68cbe088f22c657"/>
   </children>
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-6be2a2954afc42d5bd1ce982a0b43946"
-      targetConnections="id-0cdd23b9bb9d4f62a335b183b1b1ab48">
+      id="id-7ed0fd3d84314a04b29885ab5830992f"
+      targetConnections="id-de007fb42a074c97abd9ed367cfa9c7a id-fdccb77e8fb74048b84e00ed850f5db2"
+      lineColor="#5c5c5c"
+      fillColor="#b5ffff"
+      type="1">
     <bounds
-        x="779"
-        y="163"
+        x="422"
+        y="136"
         width="120"
         height="55"/>
     <archimateElement
-        xsi:type="archimate:ApplicationFunction"
-        href="ApplicationFunction_id-b9a30821e40c462c8d90543feabd2efa.xml#id-b9a30821e40c462c8d90543feabd2efa"/>
+        xsi:type="archimate:ApplicationComponent"
+        href="ApplicationComponent_id-88b9afc6b7f5414185c0bd1664856a28.xml#id-88b9afc6b7f5414185c0bd1664856a28"/>
   </children>
 </archimate:ArchimateDiagramModel>
