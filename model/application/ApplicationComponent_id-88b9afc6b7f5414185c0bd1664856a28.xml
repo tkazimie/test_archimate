@@ -1,4 +1,5 @@
 <archimate:ApplicationComponent
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Komponet TK"
-    id="id-88b9afc6b7f5414185c0bd1664856a28"/>
+    id="id-88b9afc6b7f5414185c0bd1664856a28"
+    documentation="Opis kompoinentu "/>
