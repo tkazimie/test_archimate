@@ -1,4 +1,8 @@
 <archimate:BusinessActor
     xmlns:archimate="http://www.archimatetool.com/archimate"
     name="Business Actor"
-    id="id-049ee88d8a9f412d901fa1fa99c04956"/>
+    id="id-049ee88d8a9f412d901fa1fa99c04956">
+  <properties
+      key="długość stopy"
+      value="33cm"/>
+</archimate:BusinessActor>
