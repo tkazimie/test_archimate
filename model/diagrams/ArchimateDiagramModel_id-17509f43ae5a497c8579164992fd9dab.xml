@@ -84,10 +84,10 @@
       targetConnections="id-6ef3081478db46578da7fcdb38f92e22"
       type="1">
     <bounds
-        x="591"
-        y="318"
-        width="120"
-        height="55"/>
+        x="324"
+        y="420"
+        width="442"
+        height="199"/>
     <archimateElement
         xsi:type="archimate:ApplicationComponent"
         href="ApplicationComponent_id-4036e52d6419487cb68cbe088f22c657.xml#id-4036e52d6419487cb68cbe088f22c657"/>
